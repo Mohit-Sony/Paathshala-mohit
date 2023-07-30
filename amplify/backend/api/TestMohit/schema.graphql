@@ -1,0 +1,7 @@
+type Employee @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String!
+  JobTitle: String!
+  Location: String!
+  Rate: Int!
+} 
