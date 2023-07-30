@@ -17,7 +17,7 @@
             </div>
             <div class="text-center">
                 <p class="text-xl font-medium">{{item.Name}}</p>
-                <p class="font-light">{{item.jobtitle}}</p>
+                <p class="font-light">{{item.JobTitle}}</p>
             </div>
             <div class="flex justify-between items-center">
                 <p class="flex gap-2 items-center ">

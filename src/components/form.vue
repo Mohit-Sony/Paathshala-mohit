@@ -9,10 +9,10 @@
             <input type="text" placeholder="Enter name " v-model="formData.Name" class="border w-full p-3 my-2 rounded">
 
             <p>Location</p>
-            <input type="text" placeholder="Mumbai" v-model="formData.Phone" class="border w-full p-3 my-2 rounded">
+            <input type="text" placeholder="Mumbai" v-model="formData.Location" class="border w-full p-3 my-2 rounded">
 
             <p>Job Title</p>
-            <input type="text" placeholder="Senior Developer" v-model="formData.Jobtitle" class="border w-full p-3 my-2 rounded">
+            <input type="text" placeholder="Senior Developer" v-model="formData.JobTitle" class="border w-full p-3 my-2 rounded">
 
             <p>Rate</p>
             <input type="number" v-model="formData.Rate" class="border w-full p-3 my-2 rounded">
